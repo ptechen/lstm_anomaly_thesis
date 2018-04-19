@@ -1,0 +1,32 @@
+2018-04-19 00:13:06,153. ----------------------------------------------------
+2018-04-19 00:13:06,153. Run id nab_jun22_overfitting
+2018-04-19 00:13:06,153.  HYPERPRAMRAMS : {'layers': {'input': 1, 'hidden1': 120, 'output': 1}, 'loss': 'mse', 'shuffle': False, 'learning_rate': 0.02, 'look_ahead': 1, 'batch_size': 256, 'epochs': 40, 'patience': 20, 'experiment_id': 'nab_jun22_overfitting', 'data_folder': 'resources/data/nab/nab_machine_temperature/', 'validation': True, 'look_back': 12, 'dropout': 0.1}
+2018-04-19 00:13:06,212. MultiStepLSTM LSTM Model Info: {'layers': {'input': 1, 'hidden1': 120, 'output': 1}, 'loss': 'mse', 'learning_rate': 0.02, 'look_ahead': 1, 'self': <models.lstm.MultiStepLSTM object at 0x7f14721f7310>, 'look_back': 12, 'dropout': 0.1}
+2018-04-19 00:13:06,548. Compilation Time : 0.0184180736542
+2018-04-19 00:14:15,054. ----------------------------------------------------
+2018-04-19 00:14:15,055. Run id nab_jun22_overfitting
+2018-04-19 00:14:15,055.  HYPERPRAMRAMS : {'layers': {'input': 1, 'hidden1': 120, 'output': 1}, 'loss': 'mse', 'shuffle': False, 'learning_rate': 0.02, 'look_ahead': 1, 'batch_size': 256, 'epochs': 40, 'patience': 20, 'experiment_id': 'nab_jun22_overfitting', 'data_folder': 'resources/data/nab/nab_machine_temperature/', 'validation': True, 'look_back': 12, 'dropout': 0.1}
+2018-04-19 00:14:15,099. MultiStepLSTM LSTM Model Info: {'layers': {'input': 1, 'hidden1': 120, 'output': 1}, 'loss': 'mse', 'learning_rate': 0.02, 'look_ahead': 1, 'self': <models.lstm.MultiStepLSTM object at 0x7f7dedee1290>, 'look_back': 12, 'dropout': 0.1}
+2018-04-19 00:14:15,330. Compilation Time : 0.0174579620361
+2018-04-19 00:14:36,248. ----------------------------------------------------
+2018-04-19 00:14:36,248. Run id nab_jun22_overfitting
+2018-04-19 00:14:36,248.  HYPERPRAMRAMS : {'layers': {'input': 1, 'hidden1': 120, 'output': 1}, 'loss': 'mse', 'shuffle': False, 'learning_rate': 0.02, 'look_ahead': 1, 'batch_size': 256, 'epochs': 40, 'patience': 20, 'experiment_id': 'nab_jun22_overfitting', 'data_folder': 'resources/data/nab/nab_machine_temperature/', 'validation': True, 'look_back': 12, 'dropout': 0.1}
+2018-04-19 00:14:36,286. MultiStepLSTM LSTM Model Info: {'layers': {'input': 1, 'hidden1': 120, 'output': 1}, 'loss': 'mse', 'learning_rate': 0.02, 'look_ahead': 1, 'self': <models.lstm.MultiStepLSTM object at 0x7f28c7c23310>, 'look_back': 12, 'dropout': 0.1}
+2018-04-19 00:14:36,504. Compilation Time : 0.0170228481293
+2018-04-19 00:14:36,656. Training...
+2018-04-19 00:14:37,186. Variable *= will be deprecated. Use variable.assign_mul if you want assignment to the variable value or 'x = x * y' if you want a new python Tensor object.
+2018-04-19 00:16:15,508. Training duration (s) : 98.8525400162
+2018-04-19 00:16:15,509. Training Loss per epoch: [0.1909448496552444, 0.05252619925655241, 0.04483097123521279, 0.041337362773480456, 0.03882160457506056, 0.036752152174553604, 0.03511689368522262, 0.03479633929681012, 0.034019427603836486, 0.032687430387353375, 0.03235091930518367, 0.032035077742408026, 0.031097262627313625, 0.03142965320566436, 0.030718048824458142, 0.030284258490103615, 0.02955924973399021, 0.02961935101937947, 0.02913703192919211, 0.029017595413664127, 0.028632856255813053]
+2018-04-19 00:16:15,509. Validation  Loss per epoch: [0.009672805375834113, 0.010875054869777911, 0.013415858360486558, 0.014799971648600668, 0.015620762407060148, 0.016100155039182665, 0.016194373410100264, 0.016322256235162137, 0.01625384922001161, 0.016298054464822073, 0.01603821420239136, 0.015699425959163217, 0.015624462071678636, 0.015426954265955355, 0.015058955486742838, 0.01492715225971195, 0.014852862813304767, 0.014525376387836643, 0.014217315823873268, 0.014014395761701808, 0.01369827129175728]
+2018-04-19 00:16:15,843. Validation2 Loss 0.57636826520193
+2018-04-19 00:16:16,008. Test Loss 0.17212969050078036
+2018-04-19 00:16:17,338. Train RMSE on 1 timestep prediction 1.483978
+2018-04-19 00:16:17,339.  Train RMSE Naive One Timestep Shift 1.057594
+2018-04-19 00:16:17,736. Validation1 RMSE on 1 timestep prediction 1.065216
+2018-04-19 00:16:17,736.  Validation1 RMSE Naive One Timestep Shift 0.967914
+2018-04-19 00:16:18,172. Validation2 RMSE on 1 timestep prediction 6.909632
+2018-04-19 00:16:18,172.  Validation2 RMSE Naive One Timestep Shift 1.125339
+2018-04-19 00:16:18,618. Test RMSE on 1 timestep prediction 3.776007
+2018-04-19 00:16:18,618.  Test RMSE Naive One Timestep Shift 1.237256
+2018-04-19 00:16:18,843. -------------------------run complete----------------------------------------------
+2018-04-19 00:16:18,843. 

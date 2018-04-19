@@ -101,8 +101,9 @@ class MultiStepLSTM(object):
     def build_model(self):
         # first add input to hidden1
         self.model.add(LSTM(
-            input_length=self.look_back,
-            input_dim=self.layers['input'],
+            # input_length=self.look_back,
+            # input_dim=self.layers['input'],
+            input_shape=(self.look_back, self.layers['input']),
             output_dim=self.layers['hidden1'],
             return_sequences= True if self.n_hidden>1 else False))
         self.model.add(Dropout(self.dropout))
