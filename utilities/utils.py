@@ -194,7 +194,7 @@ def load_data(data_folder, look_back, look_ahead):
     validation2_labels = validation2[:, 1]
     validation2 = train_scaler.transform(np.array(validation2[:, 0]).reshape(-1, 1))
     test_labels = test[:, 1]
-    test = train_scaler.transform(test[:, 0])
+    test = train_scaler.transform(np.array(test[:, 0]).reshape(-1, 1))
 
     # prepare sequence data and labels
     X_train, y_train = prepare_seq2seq_data(train, look_back, look_ahead)
